@@ -1,0 +1,7 @@
+.nav1{
+    display: flex;
+    justify-content: space-between;
+}
+.nav1link li a{
+    text-decoration: none;
+}
