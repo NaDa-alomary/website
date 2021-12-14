@@ -17,9 +17,14 @@ body{
     margin-left: 30px;
 }
 .nav1link {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
     list-style: none;
-    text-decoration: none;
     margin-right: 40px;
+}
+.nav1link li a{
+    text-decoration: none;
 }
 header{
     background-color: #9375ff;
@@ -44,43 +49,61 @@ header{
     border-radius: 10px;
     margin-left: 60px;
 }
-.backbutton {
+.services {
     background-color: #dad3f8;
-}
-.stylebuttons{
     display:flex;
     justify-content: space-around;
     padding:30px 0px 30px 0px;
+    text-align: center;
+}
+.yellow1{
+    background-color: #ffe101;
+    border-radius: 50%;
+    padding: 10px;
+}
+.yellow2{
+    background-color: #ffe101;
+    border-radius: 50%;
+    padding: 10px;
+}
+.yellow3{
+    background-color: #ffe101;
+    border-radius: 50%;
+    padding: 10px;
 }
 #imgUX{
     max-height: 80px;
     max-width: 80px;
-    background-color: #ffe101;  
 }
 #imgDesign{
     max-height: 80px;
     max-width: 80px;
-    background-color: #ffe101;
 }
 #imgSupport{
     max-height: 80px;
     max-width: 80px;
-    background-color: #ffe101;
 }
-#butt1{
-    padding:40px 60px 40px 60px;
-    border: none;
+.bord1{
+    border: white;
+    background-color: white;
+    padding: 20px 40px 20px 40px;
 }
-#butt2{
-    padding:40px 60px 40px 60px;
-    border: none;
+.bord2{
+    border: white;
+    background-color: white;
+    padding: 20px 40px 20px 40px;
 }
-#butt3{
-    padding:40px 60px 40px 60px;
-    border: none;
+.bord3{
+    border: white;
+    background-color: white;
+    padding: 20px 40px 20px 40px;
 }
-.articleLine1{
+.secLine1{
     display:flex;
     justify-content: space-evenly;
     padding-top: 30px;
+}
+.contactus{
+    display: flex;
+    justify-content: space-evenly;
 }
