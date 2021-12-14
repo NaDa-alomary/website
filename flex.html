@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            margin:0px;
+        }
+        #logo{
+            max-width:150px;
+            margin-left: 10px;
+        }
+        .nav1{
+            display: flex;
+            background-color:rgb(56, 6, 56) ;
+            justify-content: space-between;
+            align-items:center;
+        }
+        .navlink{
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            width: 200px;
+            padding-right: 30px;
+    
+        }
+        .navlink li a{
+            text-decoration: none;
+            color:white;
+    
+        }
+        img{
+            max-width: 400px;
+        }
+        .my-nrt{
+            margin-left: 30px;
+            margin-top: 50px;
+        }
+        p{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+            font-size: 20px;
+        }
+        #button1{
+            background-color:rgb(56, 6, 56) ;
+            color:white;
+            text-align: center;
+            margin-left: 30px;
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+        .nav2{
+            display:flex;
+            background-color:rgb(56, 6, 56) ;
+            justify-content: space-around;
+            align-items:center;
+            color: white;
+            margin-top: 160px;
+            
+        }
+        .nav2link{
+            list-style: none;
+        }
+        .nav2link li a{
+            color: white;
+            text-decoration:none;
+        }
+        @media(max-width:800px){
+            .nav2{
+                flex-direction: column;
+            }
+        }
+    
+    </style>
+    <body>
+        <nav class="nav1">
+            <img id="logo" src="https://nrt.sa/static/media/new-logo-black-text.54dddd0e.svg" ></img>
+            <ul class="navlink">
+               <li> <a href="#" >Home </a></li>
+               <li> <a href="#">Services</a> </li>
+               <li> <a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="my-nrt">
+            <img src="https://nrt.sa/static/media/new-logo-black-text.54dddd0e.svg"></img>
+            <p> Get mentored, build-up your successful portfolio,<br> possess a full understanding
+                 of the market,<br> and thrive! </p>
+        </div> <br>
+        <button type="select" id="button1">Apply</button><br><br>
+        <footer class="nav2">
+            <img width="300px" src="https://nrt.sa/static/media/new-logo-black-text.54dddd0e.svg"> </img>
+            <div>
+                <h3>Website Pages</h3>
+                <ul class="nav2link">
+                    <li><a href="#">ABOUT US</a> </li>
+                    <li><a href="#">CONTACT US</a> </li>
+                </ul>
+        
+            </div>
+            <div>
+                <h3>Ore Terms</h3>
+                <ul class="nav2link">
+                    <li><a href="#">FAQ</a> </li>
+                    <li><a href="#">TERMS & CONDITION</a> </li>
+                </ul>
+            </div>
+        </footer>
+        
+        
+    
+    </body>   
+</body>
+</html>
