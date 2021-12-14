@@ -107,3 +107,13 @@ header{
     display: flex;
     justify-content: space-evenly;
 }
+#ff{
+    display: flex;
+    justify-content: space-between;
+}
+#lastfooter{
+    background-color: #9375ff;
+    color:white;
+    display: flex;
+    text-align: center;
+}
