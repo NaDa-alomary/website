@@ -1,6 +1,12 @@
+
 body{
     margin: 0px;
     font-family:quicksand;
+}
+@media (max-width:750px){
+    .nav1{
+        flex-direction: column;
+    }
 }
 .nav1{
     display: flex;
@@ -11,24 +17,23 @@ body{
 
 }
 #Logo{
-    width: 40px;
+    max-width: 40px;
     height: 40px;
     margin-top: 15px;
     margin-left: 30px;
 }
 .nav1link {
     display: flex;
-    justify-content: space-between;
-    width: 400px;
+    justify-content: space-evenly;
+    width: 300px;
     list-style: none;
     margin-right: 40px;
 }
 .nav1link li a{
     text-decoration: none;
-    font-size: 20px;
-    margin: 0px 15px 0px 15px;
+    font-size: 15px;
 }
-@media (max-width:375px) {
+@media (max-width:750px) {
     header{
     flex-direction: column;}
 }
@@ -39,7 +44,8 @@ header{
     justify-content:space-evenly;
 }
 #headerimg{
-    width: 400px;
+    max-width: 300px;
+    height: auto;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -109,7 +115,7 @@ header{
     background-color: white;
     padding: 20px 40px 20px 40px;
 }
-@media (max-width:375px){
+@media (max-width:750px){
     .secLine1 {
         flex-direction: column;
     }
@@ -119,7 +125,7 @@ header{
     justify-content: space-evenly;
     padding-top: 30px;
 }
-@media (max-width:375px){
+@media (max-width:750px){
     .contactus {
         flex-direction: column;
     }
@@ -128,7 +134,7 @@ header{
     display: flex;
     justify-content: space-evenly;
 }
-@media (max-width:375px){
+@media (max-width:750px){
     #ff {
         flex-direction: column;
     }
@@ -140,6 +146,5 @@ header{
 #lastfooter{
     background-color: #9375ff;
     color:white;
-    display: flex;
     text-align: center;
 }
