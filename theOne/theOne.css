@@ -11,20 +11,26 @@ body{
 
 }
 #Logo{
-    max-width: 40px;
-    max-height: 40px;
+    width: 40px;
+    height: 40px;
     margin-top: 15px;
     margin-left: 30px;
 }
 .nav1link {
     display: flex;
     justify-content: space-between;
-    width: 250px;
+    width: 400px;
     list-style: none;
     margin-right: 40px;
 }
 .nav1link li a{
     text-decoration: none;
+    font-size: 20px;
+    margin: 0px 15px 0px 15px;
+}
+@media (max-width:375px) {
+    header{
+    flex-direction: column;}
 }
 header{
     background-color: #9375ff;
@@ -33,7 +39,7 @@ header{
     justify-content:space-evenly;
 }
 #headerimg{
-    max-width: 400px;
+    width: 400px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -48,6 +54,11 @@ header{
     font-size: 25px;
     border-radius: 10px;
     margin-left: 60px;
+}
+@media (max-width:375px){
+    .services {
+        flex-direction: column;
+    }
 }
 .services {
     background-color: #dad3f8;
@@ -72,16 +83,16 @@ header{
     padding: 10px;
 }
 #imgUX{
-    max-height: 80px;
-    max-width: 80px;
+    height: 80px;
+   width: 80px;
 }
 #imgDesign{
-    max-height: 80px;
-    max-width: 80px;
+    height: 80px;
+    width: 80px;
 }
 #imgSupport{
-    max-height: 80px;
-    max-width: 80px;
+    height: 80px;
+    width: 80px;
 }
 .bord1{
     border: white;
@@ -98,14 +109,29 @@ header{
     background-color: white;
     padding: 20px 40px 20px 40px;
 }
+@media (max-width:375px){
+    .secLine1 {
+        flex-direction: column;
+    }
+}
 .secLine1{
     display:flex;
     justify-content: space-evenly;
     padding-top: 30px;
 }
+@media (max-width:375px){
+    .contactus {
+        flex-direction: column;
+    }
+}
 .contactus{
     display: flex;
     justify-content: space-evenly;
+}
+@media (max-width:375px){
+    #ff {
+        flex-direction: column;
+    }
 }
 #ff{
     display: flex;
